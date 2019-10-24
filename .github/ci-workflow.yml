@@ -7,9 +7,8 @@ on:
     # branches-ignore:
     #   - "ci-workflow"
     #   - "docker-workflow"
-    paths-ignore:
-      - ".github/**"
-      - ".github/workflows/**"
+    paths:
+      - "**Dockerfile**"
 jobs:
   build:
     runs-on: ubuntu-latest
