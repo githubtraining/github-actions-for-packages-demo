@@ -2,8 +2,11 @@
 
 name: Node CI
 
-on: [push]
-
+on:
+  push:
+    branches-ignore:
+      - "ci-workflow"
+      - "docker-workflow"
 jobs:
   build:
     runs-on: ubuntu-latest
