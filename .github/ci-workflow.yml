@@ -9,6 +9,7 @@ on:
     #   - "docker-workflow"
     paths-ignore:
       - ".github/**"
+      - ".github/workflows/**"
 jobs:
   build:
     runs-on: ubuntu-latest
