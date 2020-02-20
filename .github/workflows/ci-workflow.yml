@@ -1,7 +1,14 @@
+# This file wont do us much good in this location, make sure you change the path as directed to continue!
+
 name: Node CI
 
-on: [push]
-
+on:
+  push:
+    # branches-ignore:
+    #   - "ci-workflow"
+    #   - "docker-workflow"
+    paths:
+      - "**Dockerfile**"
 jobs:
   build:
     runs-on: ubuntu-latest
