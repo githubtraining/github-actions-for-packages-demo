@@ -64,4 +64,4 @@ jobs:
       uses: mattdavis0351/actions/docker-gpr@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        image-name: tic-tac-toe-for-packages
+        image-name: tic-tac-toe-for-packages # this image-name is changed for the demo
